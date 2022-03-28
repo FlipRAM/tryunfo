@@ -28,3 +28,15 @@
   width: 180px;
   transform: rotate(-10deg) skew(-10deg);
 }
+
+#cardInPlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(green, darkgreen);
+  border: 16px solid white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
